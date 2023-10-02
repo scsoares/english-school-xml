@@ -12,7 +12,7 @@ Below, you will find instructions on how to open the XML and DTD document and ch
 
 ### Prerequisites
 
-- [VSCode](https://www.example.com)
+- [VSCode](https://code.visualstudio.com/)
 - [XML plugin for VSCode by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 
 ### Installing
