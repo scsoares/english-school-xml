@@ -1,0 +1,19 @@
+<!ELEMENT englishSchools (englishSchool*)>
+<!ATTLIST englishSchool id CDATA #REQUIRED>
+<!ELEMENT englishSchool (students*, classes*, teachers*)>
+<!ELEMENT students (student*)>
+<!ELEMENT student (studentName, address, studentClass)>
+<!ATTLIST student dni CDATA #REQUIRED>
+<!ATTLIST student birth-date CDATA #REQUIRED>
+<!ELEMENT studentName (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT studentClass (#PCDATA)>
+<!ELEMENT classes (levelClass*)>
+<!ELEMENT levelClass (#PCDATA)>
+<!ATTLIST levelClass classroom CDATA #REQUIRED>
+<!ELEMENT teachers (teacher*)>
+<!ELEMENT teacher (teacherName, teacherEmail, levelTeacher)>
+<!ATTLIST teacher dni CDATA #REQUIRED>
+<!ELEMENT teacherName (#PCDATA)>
+<!ELEMENT teacherEmail (#PCDATA)>
+<!ELEMENT levelTeacher (#PCDATA)>

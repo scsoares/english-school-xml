@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE englishSchools SYSTEM "englishSchools.dtd">
+
+
+<englishSchools>
+    <englishSchool id="FR405">
+
+        <students>
+            <student dni="43568234Q" birth-date="1997-07-21">
+                <studentName>Paulo Pérez</studentName>
+                <address>Calle Doramas, 17</address>
+                <studentClass>A1</studentClass>
+            </student>
+        </students>
+
+        <classes>
+            <levelClass classroom="01">A1</levelClass>
+            <levelClass classroom="02">A2</levelClass>
+            <levelClass classroom="03">B1</levelClass>
+            <levelClass classroom="04">B2</levelClass>
+            <levelClass classroom="05">C1</levelClass>
+            <levelClass classroom="06">C2</levelClass>
+        </classes>
+
+        <teachers>
+            <teacher dni="83398239G">
+                <teacherName>Juán Galdós</teacherName>
+                <teacherEmail>juangaldos@institutotiburcio.es</teacherEmail>
+                <levelTeacher>B2</levelTeacher>
+            </teacher>
+        </teachers>
+
+    </englishSchool>
+</englishSchools>
